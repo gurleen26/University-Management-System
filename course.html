@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>University Management System</title>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+
+<body>
+	<section class="sub-header">
+		<nav>
+			<a href="index.html"><img src="Pictures/logo.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="course.html">COURSE</a></li>
+					<li><a href="Login.html">LOGIN</a></li>
+					<li><a href="Blog.html">BLOG</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+ 
+		<h1>OUR COURSES</h1>
+	</section>
+
+	<!--Javascript for Toggle Menu-->
+	<script>
+		
+		var navLinks = document.getElementById("navLinks");
+
+		function showMenu(){
+			navLinks.style.right= "0";
+		}
+		function hideMenu(){
+			navLinks.style.right= "-200px";
+		}
+
+	</script>
+
+
+	<!--Course-->
+	<section class="course">
+		<h1>Courses We Offer</h1>
+		<p>"Harmony University's courses: Guiding students on a transformative journey, where each lesson is a note in the symphony of lifelong learning."</p>
+
+		<div class="row">
+			<div class="course-col">
+				<h3>Intermediate</h3>
+				<p>"Harmony University's intermediate courses provide a focused and enriched learning experience, building on foundational knowledge to equip students with advanced skills and insights in their chosen fields. Taught by experienced faculty, these courses strike a balance between theory and practical application, preparing students for the challenges ahead in their academic and professional pursuits."</p>
+			</div>
+			<div class="course-col">
+				<h3>Degree</h3>
+				<p>"Harmony University's degree courses offer a transformative educational journey, providing in-depth knowledge and specialized skills in various disciplines. Led by experienced faculty, these courses foster critical thinking, innovation, and a lifelong passion for learning."</p>
+			</div>
+			<div class="course-col">
+				<h3>Post Graduation</h3>
+				<p>"Harmony University's postgraduate courses pave the way for advanced specialization, offering an immersive and dynamic learning experience beyond the undergraduate level.  Led by esteemed faculty, our postgraduate courses empower individuals to contribute meaningfully to their industries and make a lasting impact on the world."
+				</p>
+			</div>
+		</div>
+	</section>
+
+	<!--Facilities-->
+
+	<section class="facilities">
+		<h1>Our Facilities</h1>
+		<p>"Harmony University's facilities: Elevating the learning experience with state-of-the-art spaces that inspire, innovate, and harmonize education."</p>
+		<div class="row">
+			<div class="facilities-col">
+				<img src="Pictures/library.png">
+				<h3>Library</h3>
+				<p>"Harmony University's library: Where knowledge whispers, and every page turns a symphony of enlightenment."</p>
+			</div>
+			<div class="facilities-col">
+				<img src="Pictures/basketball.png">
+				<h3>Largest Play Ground</h3>
+				<p>"Harmony University's playground: Where laughter echoes, friendships bloom, and memories swing high."</p>
+			</div>
+			<div class="facilities-col">
+				<img src="Pictures/cafeteria.png">
+				<h3>Tasty and Healthy Food</h3>
+				<p>"Harmony University's dining experience: Where flavors unite to create a delicious symphony for the senses."</p>
+			</div>
+		</div>
+	</section>
+
+
+	<!--Footer-->
+
+	<section class="footer">
+		<h4>About us</h4>
+		<p>"Harmony University, a beacon of educational excellence, stands as a vibrant institution committed to nurturing holistic development.<br> With a focus on fostering innovation, diversity, and global awareness, we provide a transformative learning environment."</p>
+		<div class="icons">
+			<i class="fa fa-facebook"></i>
+			<i class="fa fa-twitter"></i>
+			<i class="fa fa-instagram"></i>
+			<i class="fa fa-linkedin"></i>
+		</div>
+		<hr>
+		<p>By:Gurleen Kaur, Manvendra Singh, Sri Ragavan</p>
+	</section>
+
+</body>
+</html>
